@@ -1,12 +1,12 @@
 ---
-title: "A ReMeDI for microstructure noise"
+title: "A ReMeDI for Microstructure Noise"
 collection: publications
-category: published
-permalink: /publication/2022-01-01-remedi-microstructure-noise
-excerpt: 'Introduces ReMeDI, a novel method to correct for microstructure noise in high-frequency financial data.'
+category: manuscripts
+permalink: /publication/2022-remedi-microstructure-noise
+excerpt: "Introduces Realized moMents of Disjoint Increments (ReMeDI), a method to estimate arbitrage moments of microstructure noise using high-frequency data."
 date: 2022-01-01
-venue: 'Econometrica'
-paperurl: 'https://onlinelibrary.wiley.com/doi/abs/10.3982/ECTA17907'  # replace with actual link
-bibtexurl: 'https://example.com/bibtex/li2022remedi.bib'  # optional
-citation: 'Li, Z. M., & Linton, O. (2022). "A ReMeDI for microstructure noise." <i>Econometrica</i>, 90(1), 367–389.'
+venue: "Econometrica, 90(1): 367–389"
+paperurl: "https://doi.org/10.3982/ECTA17505"
+authors: "Z. Merrick Li, Oliver Linton"
+citation: 'Li, Z. M., & Linton, O. (2022). "A ReMeDI for Microstructure Noise." <i>Econometrica</i>, 90(1), 367–389.'
 ---
