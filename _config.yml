@@ -23,7 +23,7 @@ repository               : "merrickli/merrickli.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "ID.jpeg"
+  avatar           : "webpage_id.jpg"
   name             : "Merrick Li"
   pronouns         : # example: "she/her"  
   bio              : "Financial Econometrician"
