@@ -29,8 +29,7 @@ Education
   * Distinction: _cum laude_
 * B.S. Mathematics and Economics, Nanyang Technological University, 2010  
   * Distinction: _1st Class Honours_
-
-
+  
 Publications
 ======
   <ul>{% for post in site.publications reversed %}
