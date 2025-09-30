@@ -41,23 +41,3 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
-/* ---- custom spacing between sidebar and main content ---- /
-.sidebar {
-margin-right: 3rem; / add breathing room */
-}
-
-.page__content {
-padding-left: 1.5rem; /* small extra pad on the content side */
-}
-
-/* Larger gap on wide screens */
-@media (min-width: 1200px) {
-.sidebar { margin-right: 4rem; }
-.page__content { padding-left: 2rem; }
-}
-
-/* On mobile, stack without extra gap */
-@media (max-width: 768px) {
-.sidebar { margin-right: 0; }
-.page__content { padding-left: 0; }
-}
