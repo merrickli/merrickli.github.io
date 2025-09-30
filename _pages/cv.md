@@ -30,8 +30,8 @@ Education
 * B.S. Mathematics and Economics, Nanyang Technological University, 2010  
   * Distinction: _1st Class Honours_
 
-## Working Papers
-
+Working Papers
+======
 - [Multi-Horizon Test for Market Frictions](/assets/papers/mht.pdf)  
   Z. M. Li and X. Yang (2025). -- Working paper.  
   [PDF](/assets/papers/mht.pdf) • [Supplement](/assets/papers/Supple_mht.pdf)
