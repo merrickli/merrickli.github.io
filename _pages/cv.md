@@ -37,18 +37,13 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Talks
+Professional Activities
 ======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
+* Referee for: _Econometrica, Econometric Theory, Journal of the American Statistical Association, Journal of Business & Economic Statistics, Journal of Econometrics, Journal of Financial Econometrics, Journal of Time Series Analysis, Management Science, Quantitative Economics_
+
+Research Funds
 ======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+* RGC General Research Fund (461,406 HK$) — 2024—2026
+* RGC Early Career Scheme (305,491 HK$) — 2023—2025
+* Startup Grant, The Chinese University of Hong Kong (1.3 Million HK$) — 2021
+* Keynes Fund Grant (£89,920), Faculty of Economics, University of Cambridge — 2020
