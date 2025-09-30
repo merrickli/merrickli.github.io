@@ -18,18 +18,6 @@ redirect_from:
 * Postdoctoral Research Associate, Cambridge-INET Institute, September 2018–August 2021
 * Bye-Fellow in Economics, Fitzwilliam College, University of Cambridge, October 2018–September 2020
 
-## Education
-
-* Ph.D. Economics, University of Amsterdam and the Tinbergen Institute, August 2018  
-  * Award: Best PhD Thesis Award in Economics Written in 2018 or 2019
-* Visiting Ph.D. Student, University of Cambridge (invited by Prof. Oliver Linton), 2016–2017
-* M.Phil. Economics, Erasmus University Rotterdam and the Tinbergen Institute, 2015  
-  * Distinction: _cum laude_
-* M.Sc. Mathematical Economics and Econometrics, Tilburg University, 2013  
-  * Distinction: _cum laude_
-* B.S. Mathematics and Economics, Nanyang Technological University, 2010  
-  * Distinction: _1st Class Honours_
-
 ## Working Papers
 
 - [Multi-Horizon Test for Market Frictions](/assets/papers/mht.pdf)  
@@ -53,7 +41,19 @@ redirect_from:
 
 - [Dependent microstructure noise and integrated volatility estimation from high-frequency data](https://doi.org/10.1016/j.jeconom.2019.10.004)  
   Z. M. Li, R. J. A. Laeven, M. H. Vellekoop (2020). — **Journal of Econometrics**, 215(2), 536–558.
-  
+
+## Education
+
+* Ph.D. Economics, University of Amsterdam and the Tinbergen Institute, August 2018  
+  * Award: Best PhD Thesis Award in Economics Written in 2018 or 2019
+* Visiting Ph.D. Student, University of Cambridge (invited by Prof. Oliver Linton), 2016–2017
+* M.Phil. Economics, Erasmus University Rotterdam and the Tinbergen Institute, 2015  
+  * Distinction: _cum laude_
+* M.Sc. Mathematical Economics and Econometrics, Tilburg University, 2013  
+  * Distinction: _cum laude_
+* B.S. Mathematics and Economics, Nanyang Technological University, 2010  
+  * Distinction: _1st Class Honours_
+
 ## Professional Activities
 
 * Referee for: _Econometrica, Econometric Theory, Journal of the American Statistical Association, Journal of Business & Economic Statistics, Journal of Econometrics, Journal of Financial Econometrics, Journal of Time Series Analysis, Management Science, Quantitative Economics_
