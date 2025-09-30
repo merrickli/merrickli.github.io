@@ -11,36 +11,24 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D. Economics, University of Amsterdam and the Tinbergen Institute, August 2018  
+  * Award: Best PhD Thesis Award in Economics Written in 2018 or 2019
+* Visiting Ph.D. Student, University of Cambridge (invited by Prof. Oliver Linton), 2016–2017
+* M.Phil. Economics, Erasmus University Rotterdam and the Tinbergen Institute, 2015  
+  * Distinction: _cum laude_
+* M.Sc. Mathematical Economics and Econometrics, Tilburg University, 2013  
+  * Distinction: _cum laude_
+* B.S. Mathematics and Economics, Nanyang Technological University, 2010  
+  * Distinction: _1st Class Honours_
 
-Work experience
+Academic Appointment
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* Assistant Professor in Economics, The Chinese University of Hong Kong, August 2021–present
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
+Past Appointments
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
-
+* Postdoctoral Research Associate, Cambridge-INET Institute, September 2018–August 2021
+* Bye-Fellow in Economics, Fitzwilliam College, University of Cambridge, October 2018–September 2020
 Publications
 ======
   <ul>{% for post in site.publications reversed %}
