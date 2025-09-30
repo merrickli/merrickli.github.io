@@ -7,4 +7,4 @@ redirect_from:
   - /about.html
 ---
 
-I'm a financial econometrician in the [Department of Economics](https://www.econ.cuhk.edu.hk/en/home/) at [The Chinese University of Hong Kong](https://www.cuhk.edu.hk/english/index.html).
+I'm a financial econometrician in the [Department of Economics](https://www.econ.cuhk.edu.hk/en/home/) at [The Chinese University of Hong Kong](https://www.cuhk.edu.hk/english/index.html). My research centers on intraday financial data, developing volatility estimators, designing liquidity measures, and examining their connections to asset pricing and macroeconomics.
