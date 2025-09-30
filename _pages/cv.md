@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: ""
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -9,56 +9,45 @@ redirect_from:
 
 {% include base_path %}
 
+Academic Appointment
+======
+* Assistant Professor in Economics, The Chinese University of Hong Kong, August 2021–present
+
+Past Appointments
+======
+* Postdoctoral Research Associate, Cambridge-INET Institute, September 2018–August 2021
+* Bye-Fellow in Economics, Fitzwilliam College, University of Cambridge, October 2018–September 2020
+
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
-
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
-
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Ph.D. Economics, University of Amsterdam and the Tinbergen Institute, August 2018  
+  * Award: Best PhD Thesis Award in Economics Written in 2018 or 2019
+* Visiting Ph.D. Student, University of Cambridge (invited by Prof. Oliver Linton), 2016–2017
+* M.Phil. Economics, Erasmus University Rotterdam and the Tinbergen Institute, 2015  
+  * Distinction: _cum laude_
+* M.Sc. Mathematical Economics and Econometrics, Tilburg University, 2013  
+  * Distinction: _cum laude_
+* B.S. Mathematics and Economics, Nanyang Technological University, 2010  
+  * Distinction: _1st Class Honours_
   
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+## Publications
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+- [Robust estimation of integrated and spot volatility](https://doi.org/10.1016/j.jeconom.2023.105614)  
+  Z. M. Li, O. Linton (2023). — **Journal of Econometrics**, 105614.
+
+- [A ReMeDI for Microstructure Noise](https://doi.org/10.3982/ECTA17505)  
+  Z. M. Li, O. Linton (2022). — **Econometrica**, 90(1), 367–389.
+
+- [Dependent microstructure noise and integrated volatility estimation from high-frequency data](https://doi.org/10.1016/j.jeconom.2019.10.004)  
+  Z. M. Li, R. J. A. Laeven, M. H. Vellekoop (2020). — **Journal of Econometrics**, 215(2), 536–558.
   
-Talks
+Professional Activities
 ======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
+* Referee for: _Econometrica, Econometric Theory, Journal of the American Statistical Association, Journal of Business & Economic Statistics, Journal of Econometrics, Journal of Financial Econometrics, Journal of Time Series Analysis, Management Science, Quantitative Economics_
+
+Research Funds
 ======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+* RGC General Research Fund (461,406 HK$) — 2024—2026
+* RGC Early Career Scheme (305,491 HK$) — 2023—2025
+* Startup Grant, The Chinese University of Hong Kong (1.3 Million HK$) — 2021
+* Keynes Fund Grant (£89,920), Faculty of Economics, University of Cambridge — 2020
