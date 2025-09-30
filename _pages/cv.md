@@ -29,7 +29,13 @@ Education
   * Distinction: _cum laude_
 * B.S. Mathematics and Economics, Nanyang Technological University, 2010  
   * Distinction: _1st Class Honours_
-  
+
+## Working Papers
+
+- [Multi-Horizon Test for Market Frictions](/assets/papers/mht.pdf)  
+  Z. M. Li and X. Yang (2025). -- Working paper.  
+  [PDF](/assets/papers/mht.pdf) • [Supplement](/assets/papers/Supple_mht.pdf)
+
 ## Publications
 
 - [Robust estimation of integrated and spot volatility](https://doi.org/10.1016/j.jeconom.2023.105614)  
