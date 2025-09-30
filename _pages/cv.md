@@ -9,6 +9,15 @@ redirect_from:
 
 {% include base_path %}
 
+Academic Appointment
+======
+* Assistant Professor in Economics, The Chinese University of Hong Kong, August 2021–present
+
+Past Appointments
+======
+* Postdoctoral Research Associate, Cambridge-INET Institute, September 2018–August 2021
+* Bye-Fellow in Economics, Fitzwilliam College, University of Cambridge, October 2018–September 2020
+
 Education
 ======
 * Ph.D. Economics, University of Amsterdam and the Tinbergen Institute, August 2018  
@@ -21,14 +30,7 @@ Education
 * B.S. Mathematics and Economics, Nanyang Technological University, 2010  
   * Distinction: _1st Class Honours_
 
-Academic Appointment
-======
-* Assistant Professor in Economics, The Chinese University of Hong Kong, August 2021–present
 
-Past Appointments
-======
-* Postdoctoral Research Associate, Cambridge-INET Institute, September 2018–August 2021
-* Bye-Fellow in Economics, Fitzwilliam College, University of Cambridge, October 2018–September 2020
 Publications
 ======
   <ul>{% for post in site.publications reversed %}
