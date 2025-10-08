@@ -19,3 +19,12 @@
 <link rel="stylesheet" href="{{ base_path }}/assets/css/main.css">
 
 <meta http-equiv="cleartype" content="on">
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  const hour = new Date().getHours();
+  const isDayTime = hour >= 6 && hour < 18;
+  document.body.classList.toggle('day-theme', isDayTime);
+  document.body.classList.toggle('night-theme', !isDayTime);
+});
+</script>
