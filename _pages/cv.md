@@ -59,8 +59,8 @@ redirect_from:
   * Distinction: _1st Class Honours_
 
 ## Professional Activities
-
-* Referee for: _Econometrica, Econometric Theory, Journal of the American Statistical Association, Journal of Business & Economic Statistics, Journal of Econometrics, Journal of Financial Econometrics, Journal of Time Series Analysis, Management Science, Quantitative Economics_
+* **Associate Editor**: _[Journal of Financial Econometrics](https://academic.oup.com/jfec), October 2025
+* **Referee for**: _Econometrica, Econometric Theory, Journal of the American Statistical Association, Journal of Business & Economic Statistics, Journal of Econometrics, Journal of Financial Econometrics, Journal of Time Series Analysis, Management Science, Quantitative Economics_
 
 ## Research Funds
 
