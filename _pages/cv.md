@@ -44,7 +44,7 @@ redirect_from:
   with R. J. A. Laeven, M. H. Vellekoop (2020). — **Journal of Econometrics**, 215(2), 536–558.
 
 - [A barrier-based smoothing proximal point algorithm for NCPs over closed convex cones](https://epubs.siam.org/doi/10.1137/12087565X0)
-- with C. B. Chua. - **SIAM Journal on Optimization**, 23(2), 745-769.
+- with C. B. Chua (2013). - **SIAM Journal on Optimization**, 23(2), 745-769.
 
 ## Education
 
