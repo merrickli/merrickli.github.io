@@ -61,6 +61,7 @@ redirect_from:
 ## Professional Activities
 
 * **Associate Editor**: [Journal of Financial Econometrics](https://academic.oup.com/jfec), October 2025-present
+* 
 * **Referee for**: _Econometrica, Econometric Theory, Journal of the American Statistical Association, Journal of Business & Economic Statistics, Journal of Econometrics, Journal of Financial Econometrics, Journal of Time Series Analysis, Management Science, Quantitative Economics_
 
 ## Research Funds
