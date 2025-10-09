@@ -28,8 +28,9 @@ redirect_from:
  
   **What the test can do:**
   - Check whether intraday prices are relatively **free of microstructure noise**
-  - Diagnose whether the underlying return series is **i.i.d.** or exhibits dependence
+  - Diagnose whether the underlying return series is **uncorrelated** or exhibits serial dependence
   - Detect persistent returns driven by large drifts or **drift bursts**
+  - Outperforms modern **variance ratio** and **portmanteau tests**
 
 ## Publications
 
