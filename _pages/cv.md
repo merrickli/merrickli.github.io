@@ -51,12 +51,9 @@ redirect_from:
 * Ph.D. Economics, University of Amsterdam and the Tinbergen Institute, August 2018  
   * Award: Best PhD Thesis Award in Economics Written in 2018 or 2019
 * Visiting Ph.D. Student, University of Cambridge (invited by Prof. Oliver Linton), 2016–2017
-* M.Phil. Economics, Erasmus University Rotterdam and the Tinbergen Institute, 2015  
-  * Distinction: _cum laude_
-* M.Sc. Mathematical Economics and Econometrics, Tilburg University, 2013  
-  * Distinction: _cum laude_
-* B.S. Mathematics and Economics, Nanyang Technological University, 2010  
-  * Distinction: _1st Class Honours_
+* M.Phil. Economics, Tinbergen Institute, 2015, _cum laude_  
+* M.Sc. Mathematical Economics and Econometrics, Tilburg University, 2013, _cum laude_  
+* B.S. Mathematics and Economics, Nanyang Technological University, 2010, _1st Class_
 
 ## Professional Activities
 
