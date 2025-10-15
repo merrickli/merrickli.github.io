@@ -20,6 +20,29 @@
 
 <meta http-equiv="cleartype" content="on">
 
+<!-- MathJax Configuration -->
+<script>
+  window.MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$', '$$'], ['\\[', '\\]']],
+      processEscapes: true,
+      processEnvironments: true,
+      macros: {
+        bK: "\\mathbf{K}",
+        Hnull: "H_0"
+      }
+    },
+    options: {
+      ignoreHtmlClass: "tex2jax_ignore",
+      processHtmlClass: "tex2jax_process"
+    }
+  };
+</script>
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+
 <script>
 document.addEventListener("DOMContentLoaded", function() {
   const hour = new Date().getHours();

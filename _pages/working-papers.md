@@ -17,140 +17,48 @@ author_profile: true
   - Detect persistent returns driven by large drifts or **drift bursts**
   - Outperforms modern **variance ratio** and **portmanteau tests**
 
-  **Empirical Results**: Annual rejection rates of H₀ for SPY (2014-2021) at 1% significance level:
+  **Empirical Results**: Annual rejection rates of $H_0$ for SPY (2014-2021) at 1% significance level:
 
-  <div style="display: flex; justify-content: space-between; font-size: 0.8em;">
+  $$
+  \begin{array}{c|ccccc}
+  \hline\hline
+  \textbf{Year} & \mathbf{1s} & \mathbf{5s} & \mathbf{10s} & \mathbf{30s} & \mathbf{60s} \\
+  \hline
+  \multicolumn{6}{c}{\bK_0 \text{ Statistics}} \\
+  \hline
+  2014 & 99.6 & 65.1 & 36.5 & 7.9 & 7.9 \\
+  2015 & 98.0 & 43.7 & 22.6 & 6.3 & 3.6 \\
+  2016 & 98.4 & 52.4 & 27.8 & 9.1 & 8.3 \\
+  2017 & 99.6 & 72.1 & 36.7 & 14.3 & 8.8 \\
+  2018 & 76.5 & 25.9 & 7.6 & 4.4 & 2.4 \\
+  2019 & 92.9 & 23.8 & 11.5 & 1.2 & 2.0 \\
+  2020 & 71.1 & 15.4 & 4.0 & 1.6 & 0.0 \\
+  2021 & 88.5 & 12.3 & 0.4 & 3.2 & 0.8 \\
+  \hline
+  \multicolumn{6}{c}{\bK_1 \text{ Statistics}} \\
+  \hline
+  2014 & 99.6 & 63.9 & 35.3 & 7.9 & 5.6 \\
+  2015 & 98.4 & 43.3 & 20.6 & 6.7 & 4.4 \\
+  2016 & 98.0 & 54.0 & 27.4 & 8.7 & 5.6 \\
+  2017 & 99.6 & 71.3 & 37.5 & 14.3 & 7.2 \\
+  2018 & 78.5 & 25.5 & 6.8 & 2.0 & 1.6 \\
+  2019 & 91.3 & 21.8 & 9.5 & 1.6 & 1.2 \\
+  2020 & 72.3 & 15.8 & 4.0 & 0.8 & 0.4 \\
+  2021 & 86.9 & 9.5 & 2.4 & 1.6 & 0.4 \\
+  \hline
+  \multicolumn{6}{c}{\bK_2 \text{ Statistics}} \\
+  \hline
+  2014 & 100.0 & 63.1 & 34.5 & 6.3 & 4.0 \\
+  2015 & 98.0 & 42.1 & 17.5 & 4.4 & 2.8 \\
+  2016 & 97.6 & 53.2 & 25.8 & 7.1 & 3.2 \\
+  2017 & 99.6 & 71.3 & 34.7 & 10.8 & 6.0 \\
+  2018 & 77.7 & 23.9 & 5.2 & 0.8 & 0.4 \\
+  2019 & 90.1 & 20.2 & 8.3 & 1.6 & 0.8 \\
+  2020 & 71.9 & 17.0 & 3.2 & 0.4 & 0.8 \\
+  2021 & 85.7 & 10.3 & 3.6 & 0.8 & 0.4 \\
+  \hline\hline
+  \end{array}
+  $$
+
+  *Table shows rejection rates (%) of our $\bK_0$, $\bK_1$, $\bK_2$ multi-horizon tests across different sampling frequencies. The results demonstrate that intraday prices become effectively friction-free at higher frequencies in recent years.*
     <div style="width: 45%;">
-      <table style="border-collapse: collapse; width: 100%; margin: 10px 0;">
-        <tr style="border-top: 2px solid black; border-bottom: 1px solid black;">
-          <th style="text-align: left; padding: 4px;"><strong>2014</strong></th>
-          <th style="padding: 4px;">1s</th><th style="padding: 4px;">5s</th><th style="padding: 4px;">10s</th><th style="padding: 4px;">30s</th><th style="padding: 4px;">60s</th>
-        </tr>
-        <tr style="border-bottom: 1px solid black;">
-          <td style="padding: 4px;">bK₀</td><td style="padding: 4px;">99.6</td><td style="padding: 4px;">65.1</td><td style="padding: 4px;">36.5</td><td style="padding: 4px;">7.9</td><td style="padding: 4px;">7.9</td>
-        </tr>
-        <tr>
-          <td style="padding: 4px;">bK₁</td><td style="padding: 4px;">99.6</td><td style="padding: 4px;">63.9</td><td style="padding: 4px;">35.3</td><td style="padding: 4px;">7.9</td><td style="padding: 4px;">5.6</td>
-        </tr>
-        <tr style="border-bottom: 2px solid black;">
-          <td style="padding: 4px;">bK₂</td><td style="padding: 4px;">100.0</td><td style="padding: 4px;">63.1</td><td style="padding: 4px;">34.5</td><td style="padding: 4px;">6.3</td><td style="padding: 4px;">4.0</td>
-        </tr>
-      </table>
-
-      <table style="border-collapse: collapse; width: 100%; margin: 10px 0;">
-        <tr style="border-top: 2px solid black; border-bottom: 1px solid black;">
-          <th style="text-align: left; padding: 4px;"><strong>2015</strong></th>
-          <th style="padding: 4px;">1s</th><th style="padding: 4px;">5s</th><th style="padding: 4px;">10s</th><th style="padding: 4px;">30s</th><th style="padding: 4px;">60s</th>
-        </tr>
-        <tr style="border-bottom: 1px solid black;">
-          <td style="padding: 4px;">bK₀</td><td style="padding: 4px;">98.0</td><td style="padding: 4px;">43.7</td><td style="padding: 4px;">22.6</td><td style="padding: 4px;">6.3</td><td style="padding: 4px;">3.6</td>
-        </tr>
-        <tr>
-          <td style="padding: 4px;">bK₁</td><td style="padding: 4px;">98.4</td><td style="padding: 4px;">43.3</td><td style="padding: 4px;">20.6</td><td style="padding: 4px;">6.7</td><td style="padding: 4px;">4.4</td>
-        </tr>
-        <tr style="border-bottom: 2px solid black;">
-          <td style="padding: 4px;">bK₂</td><td style="padding: 4px;">98.0</td><td style="padding: 4px;">42.1</td><td style="padding: 4px;">17.5</td><td style="padding: 4px;">4.4</td><td style="padding: 4px;">2.8</td>
-        </tr>
-      </table>
-
-      <table style="border-collapse: collapse; width: 100%; margin: 10px 0;">
-        <tr style="border-top: 2px solid black; border-bottom: 1px solid black;">
-          <th style="text-align: left; padding: 4px;"><strong>2016</strong></th>
-          <th style="padding: 4px;">1s</th><th style="padding: 4px;">5s</th><th style="padding: 4px;">10s</th><th style="padding: 4px;">30s</th><th style="padding: 4px;">60s</th>
-        </tr>
-        <tr style="border-bottom: 1px solid black;">
-          <td style="padding: 4px;">bK₀</td><td style="padding: 4px;">98.4</td><td style="padding: 4px;">52.4</td><td style="padding: 4px;">27.8</td><td style="padding: 4px;">9.1</td><td style="padding: 4px;">8.3</td>
-        </tr>
-        <tr>
-          <td style="padding: 4px;">bK₁</td><td style="padding: 4px;">98.0</td><td style="padding: 4px;">54.0</td><td style="padding: 4px;">27.4</td><td style="padding: 4px;">8.7</td><td style="padding: 4px;">5.6</td>
-        </tr>
-        <tr style="border-bottom: 2px solid black;">
-          <td style="padding: 4px;">bK₂</td><td style="padding: 4px;">97.6</td><td style="padding: 4px;">53.2</td><td style="padding: 4px;">25.8</td><td style="padding: 4px;">7.1</td><td style="padding: 4px;">3.2</td>
-        </tr>
-      </table>
-
-      <table style="border-collapse: collapse; width: 100%; margin: 10px 0;">
-        <tr style="border-top: 2px solid black; border-bottom: 1px solid black;">
-          <th style="text-align: left; padding: 4px;"><strong>2017</strong></th>
-          <th style="padding: 4px;">1s</th><th style="padding: 4px;">5s</th><th style="padding: 4px;">10s</th><th style="padding: 4px;">30s</th><th style="padding: 4px;">60s</th>
-        </tr>
-        <tr style="border-bottom: 1px solid black;">
-          <td style="padding: 4px;">bK₀</td><td style="padding: 4px;">99.6</td><td style="padding: 4px;">72.1</td><td style="padding: 4px;">36.7</td><td style="padding: 4px;">14.3</td><td style="padding: 4px;">8.8</td>
-        </tr>
-        <tr>
-          <td style="padding: 4px;">bK₁</td><td style="padding: 4px;">99.6</td><td style="padding: 4px;">71.3</td><td style="padding: 4px;">37.5</td><td style="padding: 4px;">14.3</td><td style="padding: 4px;">7.2</td>
-        </tr>
-        <tr style="border-bottom: 2px solid black;">
-          <td style="padding: 4px;">bK₂</td><td style="padding: 4px;">99.6</td><td style="padding: 4px;">71.3</td><td style="padding: 4px;">34.7</td><td style="padding: 4px;">10.8</td><td style="padding: 4px;">6.0</td>
-        </tr>
-      </table>
-    </div>
-
-    <div style="width: 45%;">
-      <table style="border-collapse: collapse; width: 100%; margin: 10px 0;">
-        <tr style="border-top: 2px solid black; border-bottom: 1px solid black;">
-          <th style="text-align: left; padding: 4px;"><strong>2018</strong></th>
-          <th style="padding: 4px;">1s</th><th style="padding: 4px;">5s</th><th style="padding: 4px;">10s</th><th style="padding: 4px;">30s</th><th style="padding: 4px;">60s</th>
-        </tr>
-        <tr style="border-bottom: 1px solid black;">
-          <td style="padding: 4px;">bK₀</td><td style="padding: 4px;">76.5</td><td style="padding: 4px;">25.9</td><td style="padding: 4px;">7.6</td><td style="padding: 4px;">4.4</td><td style="padding: 4px;">2.4</td>
-        </tr>
-        <tr>
-          <td style="padding: 4px;">bK₁</td><td style="padding: 4px;">78.5</td><td style="padding: 4px;">25.5</td><td style="padding: 4px;">6.8</td><td style="padding: 4px;">2.0</td><td style="padding: 4px;">1.6</td>
-        </tr>
-        <tr style="border-bottom: 2px solid black;">
-          <td style="padding: 4px;">bK₂</td><td style="padding: 4px;">77.7</td><td style="padding: 4px;">23.9</td><td style="padding: 4px;">5.2</td><td style="padding: 4px;">0.8</td><td style="padding: 4px;">0.4</td>
-        </tr>
-      </table>
-
-      <table style="border-collapse: collapse; width: 100%; margin: 10px 0;">
-        <tr style="border-top: 2px solid black; border-bottom: 1px solid black;">
-          <th style="text-align: left; padding: 4px;"><strong>2019</strong></th>
-          <th style="padding: 4px;">1s</th><th style="padding: 4px;">5s</th><th style="padding: 4px;">10s</th><th style="padding: 4px;">30s</th><th style="padding: 4px;">60s</th>
-        </tr>
-        <tr style="border-bottom: 1px solid black;">
-          <td style="padding: 4px;">bK₀</td><td style="padding: 4px;">92.9</td><td style="padding: 4px;">23.8</td><td style="padding: 4px;">11.5</td><td style="padding: 4px;">1.2</td><td style="padding: 4px;">2.0</td>
-        </tr>
-        <tr>
-          <td style="padding: 4px;">bK₁</td><td style="padding: 4px;">91.3</td><td style="padding: 4px;">21.8</td><td style="padding: 4px;">9.5</td><td style="padding: 4px;">1.6</td><td style="padding: 4px;">1.2</td>
-        </tr>
-        <tr style="border-bottom: 2px solid black;">
-          <td style="padding: 4px;">bK₂</td><td style="padding: 4px;">90.1</td><td style="padding: 4px;">20.2</td><td style="padding: 4px;">8.3</td><td style="padding: 4px;">1.6</td><td style="padding: 4px;">0.8</td>
-        </tr>
-      </table>
-
-      <table style="border-collapse: collapse; width: 100%; margin: 10px 0;">
-        <tr style="border-top: 2px solid black; border-bottom: 1px solid black;">
-          <th style="text-align: left; padding: 4px;"><strong>2020</strong></th>
-          <th style="padding: 4px;">1s</th><th style="padding: 4px;">5s</th><th style="padding: 4px;">10s</th><th style="padding: 4px;">30s</th><th style="padding: 4px;">60s</th>
-        </tr>
-        <tr style="border-bottom: 1px solid black;">
-          <td style="padding: 4px;">bK₀</td><td style="padding: 4px;">71.1</td><td style="padding: 4px;">15.4</td><td style="padding: 4px;">4.0</td><td style="padding: 4px;">1.6</td><td style="padding: 4px;">0.0</td>
-        </tr>
-        <tr>
-          <td style="padding: 4px;">bK₁</td><td style="padding: 4px;">72.3</td><td style="padding: 4px;">15.8</td><td style="padding: 4px;">4.0</td><td style="padding: 4px;">0.8</td><td style="padding: 4px;">0.4</td>
-        </tr>
-        <tr style="border-bottom: 2px solid black;">
-          <td style="padding: 4px;">bK₂</td><td style="padding: 4px;">71.9</td><td style="padding: 4px;">17.0</td><td style="padding: 4px;">3.2</td><td style="padding: 4px;">0.4</td><td style="padding: 4px;">0.8</td>
-        </tr>
-      </table>
-
-      <table style="border-collapse: collapse; width: 100%; margin: 10px 0;">
-        <tr style="border-top: 2px solid black; border-bottom: 1px solid black;">
-          <th style="text-align: left; padding: 4px;"><strong>2021</strong></th>
-          <th style="padding: 4px;">1s</th><th style="padding: 4px;">5s</th><th style="padding: 4px;">10s</th><th style="padding: 4px;">30s</th><th style="padding: 4px;">60s</th>
-        </tr>
-        <tr style="border-bottom: 1px solid black;">
-          <td style="padding: 4px;">bK₀</td><td style="padding: 4px;">88.5</td><td style="padding: 4px;">12.3</td><td style="padding: 4px;">0.4</td><td style="padding: 4px;">3.2</td><td style="padding: 4px;">0.8</td>
-        </tr>
-        <tr>
-          <td style="padding: 4px;">bK₁</td><td style="padding: 4px;">86.9</td><td style="padding: 4px;">9.5</td><td style="padding: 4px;">2.4</td><td style="padding: 4px;">1.6</td><td style="padding: 4px;">0.4</td>
-        </tr>
-        <tr style="border-bottom: 2px solid black;">
-          <td style="padding: 4px;">bK₂</td><td style="padding: 4px;">85.7</td><td style="padding: 4px;">10.3</td><td style="padding: 4px;">3.6</td><td style="padding: 4px;">0.8</td><td style="padding: 4px;">0.4</td>
-        </tr>
-      </table>
-    </div>
-  </div>
-
-  *Table shows rejection rates (%) of our bK₀, bK₁, bK₂ multi-horizon tests across different sampling frequencies. The results demonstrate that intraday prices become effectively friction-free at higher frequencies in recent years.*
