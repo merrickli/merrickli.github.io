@@ -124,5 +124,5 @@ author_profile: true
     </div>
   </div>
 
-  *Table shows rejection rates (%) of our single-horizon ($\bK_0$), two-horizon ($\bK_1$), and four-horizon ($\bK_2$) tests across different sampling frequencies. The results demonstrate that intraday prices become effectively friction-free at higher frequencies in recent years.*
+  **Table shows rejection rates (%) of our single-horizon ($\bK_0$), two-horizon ($\bK_1$), and four-horizon ($\bK_2$) tests across different sampling frequencies. The results demonstrate that intraday prices become effectively friction-free at higher frequencies in recent years.**
     <div style="width: 45%;">
