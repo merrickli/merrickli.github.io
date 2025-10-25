@@ -5,7 +5,7 @@ permalink: /working-papers/
 author_profile: true
 ---
 
-- [Multi-Horizon Test for Market Frictions](/assets/papers/mht.pdf)  
+- [Multi-Horizon Test for Market Frictions](10.13140/RG.2.2.25644.58246)  
   with Xiye Yang (2025).  
   [PDF](/assets/papers/mht.pdf) • [Supplement](/assets/papers/Supple_mht.pdf) • [Code (minimac)](https://github.com/merrickli/minimac)
 
