@@ -4,6 +4,8 @@ title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
+- [Multi-Horizon Test for Market Frictions](https://doi.org/10.13140/RG.2.2.25644.58246)
+  with X. Yang (2025). — **Journal of Econometrics**, forthcoming.
 
 - [Robust estimation of integrated and spot volatility](https://doi.org/10.1016/j.jeconom.2023.105614)  
   with O. Linton (2023). — **Journal of Econometrics**, 105614.
