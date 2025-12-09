@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 - [Multi-Horizon Test for Market Frictions](https://doi.org/10.13140/RG.2.2.25644.58246)  
-  with Xiye Yang (2025).  
+  with Xiye Yang (2025), accepted by **Journal of Econometrics**.  
  • [Supplement](/assets/papers/Supple_mht.pdf) • [Code (minimac)](https://github.com/merrickli/minimac)
 
 
