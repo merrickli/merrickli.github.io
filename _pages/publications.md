@@ -5,7 +5,7 @@ permalink: /publications/
 author_profile: true
 ---
 - [Multi-Horizon Test for Market Frictions](https://doi.org/10.13140/RG.2.2.25644.58246), with X. Yang (2025). **Journal of Econometrics**, forthcoming.
-• [Code](https://github.com/merrickli/minimac)
+• [Code](https://github.com/merrickli/minimac) • [Highlights](#mht-highlights)
   
 - [Robust estimation of integrated and spot volatility](https://doi.org/10.1016/j.jeconom.2023.105614), with O. Linton (2023). **Journal of Econometrics**, 105614.
 
@@ -14,3 +14,14 @@ author_profile: true
 - [Dependent microstructure noise and integrated volatility estimation from high-frequency data](https://doi.org/10.1016/j.jeconom.2019.10.004), with R. J. A. Laeven, M. H. Vellekoop (2020). **Journal of Econometrics**, 215(2), 536–558.
 
 - [A barrier-based smoothing proximal point algorithm for NCPs over closed convex cones](https://epubs.siam.org/doi/10.1137/12087565X0), with C. B. Chua (2013). **SIAM Journal on Optimization**, 23(2), 745-769.
+
+## MHT Highlights
+
+<!-- markdownlint-disable MD033 -->
+<details>
+
+  <summary>Click to expand</summary>
+
+  {% include mht_highlight_content.md %}
+</details>
+<!-- markdownlint-enable MD033 -->
