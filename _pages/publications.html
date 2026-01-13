@@ -34,6 +34,35 @@ ul.task-list li input[type="checkbox"] {
 <link href="publications_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="publications_files/libs/bootstrap/bootstrap-973236bd072d72a04ee9cd82dcc9cb29.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -63,23 +92,127 @@ ul.task-list li input[type="checkbox"] {
 
 
 <ul>
-<li><p><a href="https://doi.org/10.13140/RG.2.2.25644.58246">Multi-Horizon Test for Market Frictions</a>, with X. Yang (2025). <strong>Journal of Econometrics</strong>, forthcoming. • <a href="https://github.com/merrickli/minimac">Code</a> • <a href="#mht-highlights">Highlights</a></p></li>
+<li><p><a href="https://doi.org/10.13140/RG.2.2.25644.58246">Multi-Horizon Test for Market Frictions</a>, with X. Yang (2025). <strong>Journal of Econometrics</strong>, forthcoming. • <a href="./assets/papers/Supple_mht.pdf">Supplement</a> • <a href="https://github.com/merrickli/minimac">Code</a></p>
+<details style="display: inline;">
+<summary>
+<p><strong>Highlights</strong></p>
+</summary>
+<p><strong>Abstract</strong>: We test for the presence of market frictions that induce transitory deviations of observed asset prices from the underlying efficient prices. Our test is based on the joint inference of return covariances across multiple horizons. We demonstrate that a small set of horizons suffices to identify a broad spectrum of frictions, both theoretically and practically. Our method works for high- and low-frequency data under different asymptotic regimes. Extensive simulations show our method outperforms widely used state-of-the-art tests. Our empirical studies indicate that intraday transaction prices from recent years can be considered effectively friction-free at significantly higher frequencies.</p>
+<p><strong>What the test can do:</strong></p>
+<ul>
+<li>Check whether intraday prices are relatively <strong>free of microstructure noise</strong></li>
+<li>Diagnose whether the underlying return series is <strong>uncorrelated</strong> or exhibits serial dependence</li>
+<li>Detect persistent returns driven by large drifts or <strong>drift bursts</strong></li>
+<li>Outperforms modern <strong>variance ratio</strong> and <strong>portmanteau tests</strong></li>
+</ul>
+<p><strong>Empirical Results</strong>: Annual rejection rates of <span class="math inline">\(\mathbb{H}_0\)</span> (semimartingale without microstructural errors) for SPY (2014-2021) at 1% significance level:</p>
+<div style="display: flex; justify-content: space-between; font-size: 0.85em; margin: 20px 0;">
+<div style="width: 48%;">
+<pre><code>$$
+\begin{array}{c|ccccc}
+\hline\hline
+\mathbf{2014} &amp; \mathbf{1s} &amp; \mathbf{5s} &amp; \mathbf{10s} &amp; \mathbf{30s} &amp; \mathbf{60s} \\
+\hline
+\bK_0 &amp; 99.6 &amp; 65.1 &amp; 36.5 &amp; 7.9 &amp; 7.9 \\
+\bK_1 &amp; 99.6 &amp; 63.9 &amp; 35.3 &amp; 7.9 &amp; 5.6 \\
+\bK_2 &amp; 100.0 &amp; 63.1 &amp; 34.5 &amp; 6.3 &amp; 4.0 \\
+\hline\hline
+\end{array}
+$$
+
+$$
+\begin{array}{c|ccccc}
+\hline\hline
+\mathbf{2015} &amp; \mathbf{1s} &amp; \mathbf{5s} &amp; \mathbf{10s} &amp; \mathbf{30s} &amp; \mathbf{60s} \\
+\hline
+\bK_0 &amp; 98.0 &amp; 43.7 &amp; 22.6 &amp; 6.3 &amp; 3.6 \\
+\bK_1 &amp; 98.4 &amp; 43.3 &amp; 20.6 &amp; 6.7 &amp; 4.4 \\
+\bK_2 &amp; 98.0 &amp; 42.1 &amp; 17.5 &amp; 4.4 &amp; 2.8 \\
+\hline\hline
+\end{array}
+$$
+
+$$
+\begin{array}{c|ccccc}
+\hline\hline
+\mathbf{2016} &amp; \mathbf{1s} &amp; \mathbf{5s} &amp; \mathbf{10s} &amp; \mathbf{30s} &amp; \mathbf{60s} \\
+\hline
+\bK_0 &amp; 98.4 &amp; 52.4 &amp; 27.8 &amp; 9.1 &amp; 8.3 \\
+\bK_1 &amp; 98.0 &amp; 54.0 &amp; 27.4 &amp; 8.7 &amp; 5.6 \\
+\bK_2 &amp; 97.6 &amp; 53.2 &amp; 25.8 &amp; 7.1 &amp; 3.2 \\
+\hline\hline
+\end{array}
+$$
+
+$$
+\begin{array}{c|ccccc}
+\hline\hline
+\mathbf{2017} &amp; \mathbf{1s} &amp; \mathbf{5s} &amp; \mathbf{10s} &amp; \mathbf{30s} &amp; \mathbf{60s} \\
+\hline
+\bK_0 &amp; 99.6 &amp; 72.1 &amp; 36.7 &amp; 14.3 &amp; 8.8 \\
+\bK_1 &amp; 99.6 &amp; 71.3 &amp; 37.5 &amp; 14.3 &amp; 7.2 \\
+\bK_2 &amp; 99.6 &amp; 71.3 &amp; 34.7 &amp; 10.8 &amp; 6.0 \\
+\hline\hline
+\end{array}
+$$</code></pre>
+</div>
+<div style="width: 48%;">
+<pre><code>$$
+\begin{array}{c|ccccc}
+\hline\hline
+\mathbf{2018} &amp; \mathbf{1s} &amp; \mathbf{5s} &amp; \mathbf{10s} &amp; \mathbf{30s} &amp; \mathbf{60s} \\
+\hline
+\bK_0 &amp; 76.5 &amp; 25.9 &amp; 7.6 &amp; 4.4 &amp; 2.4 \\
+\bK_1 &amp; 78.5 &amp; 25.5 &amp; 6.8 &amp; 2.0 &amp; 1.6 \\
+\bK_2 &amp; 77.7 &amp; 23.9 &amp; 5.2 &amp; 0.8 &amp; 0.4 \\
+\hline\hline
+\end{array}
+$$
+
+$$
+\begin{array}{c|ccccc}
+\hline\hline
+\mathbf{2019} &amp; \mathbf{1s} &amp; \mathbf{5s} &amp; \mathbf{10s} &amp; \mathbf{30s} &amp; \mathbf{60s} \\
+\hline
+\bK_0 &amp; 92.9 &amp; 23.8 &amp; 11.5 &amp; 1.2 &amp; 2.0 \\
+\bK_1 &amp; 91.3 &amp; 21.8 &amp; 9.5 &amp; 1.6 &amp; 1.2 \\
+\bK_2 &amp; 90.1 &amp; 20.2 &amp; 8.3 &amp; 1.6 &amp; 0.8 \\
+\hline\hline
+\end{array}
+$$
+
+$$
+\begin{array}{c|ccccc}
+\hline\hline
+\mathbf{2020} &amp; \mathbf{1s} &amp; \mathbf{5s} &amp; \mathbf{10s} &amp; \mathbf{30s} &amp; \mathbf{60s} \\
+\hline
+\bK_0 &amp; 71.1 &amp; 15.4 &amp; 4.0 &amp; 1.6 &amp; 0.0 \\
+\bK_1 &amp; 72.3 &amp; 15.8 &amp; 4.0 &amp; 0.8 &amp; 0.4 \\
+\bK_2 &amp; 71.9 &amp; 17.0 &amp; 3.2 &amp; 0.4 &amp; 0.8 \\
+\hline\hline
+\end{array}
+$$
+
+$$
+\begin{array}{c|ccccc}
+\hline\hline
+\mathbf{2021} &amp; \mathbf{1s} &amp; \mathbf{5s} &amp; \mathbf{10s} &amp; \mathbf{30s} &amp; \mathbf{60s} \\
+\hline
+\bK_0 &amp; 88.5 &amp; 12.3 &amp; 0.4 &amp; 3.2 &amp; 0.8 \\
+\bK_1 &amp; 86.9 &amp; 9.5 &amp; 2.4 &amp; 1.6 &amp; 0.4 \\
+\bK_2 &amp; 85.7 &amp; 10.3 &amp; 3.6 &amp; 0.8 &amp; 0.4 \\
+\hline\hline
+\end{array}
+$$</code></pre>
+</div>
+</div>
+<p><strong>Table shows rejection rates (%) of our single-horizon (<span class="math inline">\(\bK_0\)</span>), two-horizon (<span class="math inline">\(\bK_1\)</span>), and four-horizon (<span class="math inline">\(\bK_2\)</span>) tests across different sampling frequencies. The results demonstrate that intraday prices become effectively friction-free at higher frequencies in recent years.</strong></p>
+</details></li>
 <li><p><a href="https://doi.org/10.1016/j.jeconom.2023.105614">Robust estimation of integrated and spot volatility</a>, with O. Linton (2023). <strong>Journal of Econometrics</strong>, 105614.</p></li>
 <li><p><a href="https://doi.org/10.3982/ECTA17505">A ReMeDI for Microstructure Noise</a>, with O. Linton (2022). <strong>Econometrica</strong>, 90(1), 367–389.</p></li>
 <li><p><a href="https://doi.org/10.1016/j.jeconom.2019.10.004">Dependent microstructure noise and integrated volatility estimation from high-frequency data</a>, with R. J. A. Laeven, M. H. Vellekoop (2020). <strong>Journal of Econometrics</strong>, 215(2), 536–558.</p></li>
 <li><p><a href="https://epubs.siam.org/doi/10.1137/12087565X0">A barrier-based smoothing proximal point algorithm for NCPs over closed convex cones</a>, with C. B. Chua (2013). <strong>SIAM Journal on Optimization</strong>, 23(2), 745-769.</p></li>
 </ul>
-<section id="mht-highlights" class="level2">
-<h2 class="anchored" data-anchor-id="mht-highlights">MHT Highlights</h2>
-<!-- markdownlint-disable MD033 -->
-<details>
-<summary>
-Click to expand
-</summary>
-{% capture mht_highlight_md %} {% include mht_highlight_content.md %} {% endcapture %} {{ mht_highlight_md | markdownify }}
-</details>
-<!-- markdownlint-enable MD033 -->
-</section>
 
 </main>
 <!-- /main column -->
