@@ -22,6 +22,9 @@ author_profile: true
 
   <summary>Click to expand</summary>
 
+  {% capture mht_highlight_md %}
   {% include mht_highlight_content.md %}
+  {% endcapture %}
+  {{ mht_highlight_md | markdownify }}
 </details>
 <!-- markdownlint-enable MD033 -->

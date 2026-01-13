@@ -76,7 +76,7 @@ ul.task-list li input[type="checkbox"] {
 <summary>
 Click to expand
 </summary>
-{% include mht_highlight_content.md %}
+{% capture mht_highlight_md %} {% include mht_highlight_content.md %} {% endcapture %} {{ mht_highlight_md | markdownify }}
 </details>
 <!-- markdownlint-enable MD033 -->
 </section>
