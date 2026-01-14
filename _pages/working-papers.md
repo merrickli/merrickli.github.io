@@ -27,5 +27,5 @@ published: true
   </div>
 
   <div style="text-align: center; margin-top: 5px;">
-    Figure: Order Imbalance Measures Around FOMC Announcements at 14:00. The top panel displays average standard order imbalance measures defined in \eqref{eq:OIB} prior to, during, and after FOMC announcements days. The bottom panel plots our proposed new order imbalance measures $\dior{m}{t}$ with $m =5, 10$.
+    Figure: Order Imbalance Measures Around FOMC Announcements at 14:00. The top panel displays average standard order imbalance measures prior to, during, and after FOMC announcements days. The bottom panel plots our proposed new order imbalance measures DOFI(m) with $m=5, 10$.
   </div>
