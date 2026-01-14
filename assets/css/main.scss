@@ -42,16 +42,28 @@
     "vendor/font-awesome/brands"
 ;
 
-/* Custom styles to reduce page margins */
+/* Custom styles to optimize page margins */
 .page {
   @include breakpoint($large) {
-    @include span(11 of 12 last);  /* increased from 8 of 12 for wider content */
-    @include prefix(0.5 of 12);    /* reduced from 2 of 12 for smaller margins */
-    @include suffix(0.5 of 12);
+    @include span(10 of 12 last);  /* slightly reduced for better margins */
+    @include prefix(1 of 12);      /* increased margin for better readability */
+    @include suffix(1 of 12);      /* increased margin for better readability */
   }
 }
 
 .page__inner-wrap {
-  max-width: 1200px;  /* increased from 800px for wider content */
+  max-width: 1100px;  /* slightly reduced max-width for better proportion */
   margin: 0 auto;
+  padding: 0 2rem;   /* added horizontal padding for extra breathing room */
+}
+
+/* Add some extra margin to the main content area */
+#main {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  
+  @include breakpoint($medium) {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
 }
