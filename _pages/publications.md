@@ -4,9 +4,7 @@ title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
-- [Multi-Horizon Test for Market Frictions](https://doi.org/10.13140/RG.2.2.25644.58246), with X. Yang (2026). **Journal of Econometrics**.
-
-  • [Supplement](/assets/papers/Supple_mht.pdf) • [Code](https://github.com/merrickli/minimac) 
+- [Multi-Horizon Test for Market Frictions](https://doi.org/10.13140/RG.2.2.25644.58246), with X. Yang (2026). **Journal of Econometrics**. [Code](https://github.com/merrickli/minimac) 
   
   <details markdown="1">
   <summary style="color: #1e6bb8;"><strong>Highlights</strong></summary>
