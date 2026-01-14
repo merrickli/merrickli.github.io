@@ -92,122 +92,12 @@ window.Quarto = {
 
 
 <ul>
-<li><p><a href="https://doi.org/10.13140/RG.2.2.25644.58246">Multi-Horizon Test for Market Frictions</a><br>
-with Xiye Yang (2025), accepted by <strong>Journal of Econometrics</strong>.<br>
-• <a href="./assets/papers/Supple_mht.pdf">Supplement</a> • <a href="https://github.com/merrickli/minimac">Code (minimac)</a></p>
-<p><strong>Abstract</strong>: We test for the presence of market frictions that induce transitory deviations of observed asset prices from the underlying efficient prices. Our test is based on the joint inference of return covariances across multiple horizons. We demonstrate that a small set of horizons suffices to identify a broad spectrum of frictions, both theoretically and practically. Our method works for high- and low-frequency data under different asymptotic regimes. Extensive simulations show our method outperforms widely used state-of-the-art tests. Our empirical studies indicate that intraday transaction prices from recent years can be considered effectively friction-free at significantly higher frequencies.</p>
-<p><strong>What the test can do:</strong></p>
-<ul>
-<li>Check whether intraday prices are relatively <strong>free of microstructure noise</strong></li>
-<li>Diagnose whether the underlying return series is <strong>uncorrelated</strong> or exhibits serial dependence</li>
-<li>Detect persistent returns driven by large drifts or <strong>drift bursts</strong></li>
-<li>Outperforms modern <strong>variance ratio</strong> and <strong>portmanteau tests</strong></li>
-</ul>
-<p><strong>Empirical Results</strong>: Annual rejection rates of <span class="math inline">\(\mathbb{H}_0\)</span> (semimartingale without microstructural errors) for SPY (2014-2021) at 1% significance level:</p>
-<div style="display: flex; justify-content: space-between; font-size: 0.85em; margin: 20px 0;">
-<div style="width: 48%;">
-<pre><code>$$
-\begin{array}{c|ccccc}
-\hline\hline
-\mathbf{2014} &amp; \mathbf{1s} &amp; \mathbf{5s} &amp; \mathbf{10s} &amp; \mathbf{30s} &amp; \mathbf{60s} \\
-\hline
-\bK_0 &amp; 99.6 &amp; 65.1 &amp; 36.5 &amp; 7.9 &amp; 7.9 \\
-\bK_1 &amp; 99.6 &amp; 63.9 &amp; 35.3 &amp; 7.9 &amp; 5.6 \\
-\bK_2 &amp; 100.0 &amp; 63.1 &amp; 34.5 &amp; 6.3 &amp; 4.0 \\
-\hline\hline
-\end{array}
-$$
-
-$$
-\begin{array}{c|ccccc}
-\hline\hline
-\mathbf{2015} &amp; \mathbf{1s} &amp; \mathbf{5s} &amp; \mathbf{10s} &amp; \mathbf{30s} &amp; \mathbf{60s} \\
-\hline
-\bK_0 &amp; 98.0 &amp; 43.7 &amp; 22.6 &amp; 6.3 &amp; 3.6 \\
-\bK_1 &amp; 98.4 &amp; 43.3 &amp; 20.6 &amp; 6.7 &amp; 4.4 \\
-\bK_2 &amp; 98.0 &amp; 42.1 &amp; 17.5 &amp; 4.4 &amp; 2.8 \\
-\hline\hline
-\end{array}
-$$
-
-$$
-\begin{array}{c|ccccc}
-\hline\hline
-\mathbf{2016} &amp; \mathbf{1s} &amp; \mathbf{5s} &amp; \mathbf{10s} &amp; \mathbf{30s} &amp; \mathbf{60s} \\
-\hline
-\bK_0 &amp; 98.4 &amp; 52.4 &amp; 27.8 &amp; 9.1 &amp; 8.3 \\
-\bK_1 &amp; 98.0 &amp; 54.0 &amp; 27.4 &amp; 8.7 &amp; 5.6 \\
-\bK_2 &amp; 97.6 &amp; 53.2 &amp; 25.8 &amp; 7.1 &amp; 3.2 \\
-\hline\hline
-\end{array}
-$$
-
-$$
-\begin{array}{c|ccccc}
-\hline\hline
-\mathbf{2017} &amp; \mathbf{1s} &amp; \mathbf{5s} &amp; \mathbf{10s} &amp; \mathbf{30s} &amp; \mathbf{60s} \\
-\hline
-\bK_0 &amp; 99.6 &amp; 72.1 &amp; 36.7 &amp; 14.3 &amp; 8.8 \\
-\bK_1 &amp; 99.6 &amp; 71.3 &amp; 37.5 &amp; 14.3 &amp; 7.2 \\
-\bK_2 &amp; 99.6 &amp; 71.3 &amp; 34.7 &amp; 10.8 &amp; 6.0 \\
-\hline\hline
-\end{array}
-$$</code></pre>
-</div>
-<div style="width: 48%;">
-<pre><code>$$
-\begin{array}{c|ccccc}
-\hline\hline
-\mathbf{2018} &amp; \mathbf{1s} &amp; \mathbf{5s} &amp; \mathbf{10s} &amp; \mathbf{30s} &amp; \mathbf{60s} \\
-\hline
-\bK_0 &amp; 76.5 &amp; 25.9 &amp; 7.6 &amp; 4.4 &amp; 2.4 \\
-\bK_1 &amp; 78.5 &amp; 25.5 &amp; 6.8 &amp; 2.0 &amp; 1.6 \\
-\bK_2 &amp; 77.7 &amp; 23.9 &amp; 5.2 &amp; 0.8 &amp; 0.4 \\
-\hline\hline
-\end{array}
-$$
-
-$$
-\begin{array}{c|ccccc}
-\hline\hline
-\mathbf{2019} &amp; \mathbf{1s} &amp; \mathbf{5s} &amp; \mathbf{10s} &amp; \mathbf{30s} &amp; \mathbf{60s} \\
-\hline
-\bK_0 &amp; 92.9 &amp; 23.8 &amp; 11.5 &amp; 1.2 &amp; 2.0 \\
-\bK_1 &amp; 91.3 &amp; 21.8 &amp; 9.5 &amp; 1.6 &amp; 1.2 \\
-\bK_2 &amp; 90.1 &amp; 20.2 &amp; 8.3 &amp; 1.6 &amp; 0.8 \\
-\hline\hline
-\end{array}
-$$
-
-$$
-\begin{array}{c|ccccc}
-\hline\hline
-\mathbf{2020} &amp; \mathbf{1s} &amp; \mathbf{5s} &amp; \mathbf{10s} &amp; \mathbf{30s} &amp; \mathbf{60s} \\
-\hline
-\bK_0 &amp; 71.1 &amp; 15.4 &amp; 4.0 &amp; 1.6 &amp; 0.0 \\
-\bK_1 &amp; 72.3 &amp; 15.8 &amp; 4.0 &amp; 0.8 &amp; 0.4 \\
-\bK_2 &amp; 71.9 &amp; 17.0 &amp; 3.2 &amp; 0.4 &amp; 0.8 \\
-\hline\hline
-\end{array}
-$$
-
-$$
-\begin{array}{c|ccccc}
-\hline\hline
-\mathbf{2021} &amp; \mathbf{1s} &amp; \mathbf{5s} &amp; \mathbf{10s} &amp; \mathbf{30s} &amp; \mathbf{60s} \\
-\hline
-\bK_0 &amp; 88.5 &amp; 12.3 &amp; 0.4 &amp; 3.2 &amp; 0.8 \\
-\bK_1 &amp; 86.9 &amp; 9.5 &amp; 2.4 &amp; 1.6 &amp; 0.4 \\
-\bK_2 &amp; 85.7 &amp; 10.3 &amp; 3.6 &amp; 0.8 &amp; 0.4 \\
-\hline\hline
-\end{array}
-$$</code></pre>
-</div>
-</div>
-<p><strong>Table shows rejection rates (%) of our single-horizon (<span class="math inline">\(\bK_0\)</span>), two-horizon (<span class="math inline">\(\bK_1\)</span>), and four-horizon (<span class="math inline">\(\bK_2\)</span>) tests across different sampling frequencies. The results demonstrate that intraday prices become effectively friction-free at higher frequencies in recent years.</strong></p>
-<div style="width: 45%;">
-
-</div></li>
+<li><p><a href="https://doi.org/10.13140/RG.2.2.33271.28325">Designing High-Frequency Market Liquidity Measures with Applications to Monetary Policy</a><br>
+with Oliver Linton, Yunxiao Zhai, and Haotian Zhang.</p>
+<p><strong>Abstract</strong>: We propose a new family of liquidity measures—including order imbalance metrics—based on the dispersion and persistence of transitory gaps between transaction prices and the underlying efficient price. We devise an estimation method that renders these latent gaps observable, allowing plug-in estimates of the new measures from intraday trades alone, along with an inference method that allows us to quantify the sampling uncertainty in our estimates. We apply the approach to the S&amp;P 500 equity portfolio, as well as to individual stocks. We use event study methodology to capture heterogeneous liquidity responses to FOMC announcements, which reveals distinct order-persistence patterns on surprise versus non-surprise days, highlighting how markets anticipate and react to monetary policy via the liquidity channel.</p>
+<p><strong>Empirical Highlights:</strong></p>
+<p><embed src="./assets/papers/liqFOMC.pdf" class="img-fluid">{: .align-center}</p>
+<p><em>Figure: Liquidity Dynamics Around FOMC Announcements at 14:00. The top panel displays averaged log-estimates of proposed liquidity measures (<span class="math inline">\({\mathcal{S}}(m)^n_t\)</span> for <span class="math inline">\(m=1,5\)</span>) alongside the log effective spread (ES), grouped by trading days prior to, during, and after FOMC announcements. The bottom panel contrasts these measures on FOMC days with estimates from non-FOMC days (control groups), represented by black dotted lines.</em></p></li>
 </ul>
 
 </main>

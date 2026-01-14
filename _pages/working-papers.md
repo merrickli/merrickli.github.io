@@ -11,3 +11,9 @@ published: true
 
 
   **Abstract**: 	We propose a new family of liquidity measures---including order imbalance metrics---based on the dispersion and persistence of transitory gaps between transaction prices and the underlying efficient price. We devise an estimation method that renders these latent gaps observable, allowing plug-in estimates of the new measures from intraday trades alone, along with an inference method that allows us to quantify the sampling uncertainty in our estimates. We apply the approach to the S&P 500 equity portfolio, as well as to individual stocks. We use event study methodology to capture heterogeneous liquidity responses to FOMC announcements, which reveals distinct order-persistence patterns on surprise versus non-surprise days, highlighting how markets anticipate and react to monetary policy via the liquidity channel.
+
+  **Empirical Highlights:**
+
+  ![Liquidity Dynamics Around FOMC Announcements](/assets/papers/liqFOMC.pdf){: .align-center}
+
+  *Figure: Liquidity Dynamics Around FOMC Announcements at 14:00. The top panel displays averaged log-estimates of proposed liquidity measures (${\mathcal{S}}(m)^n_t$ for $m=1,5$) alongside the log effective spread (ES), grouped by trading days prior to, during, and after FOMC announcements. The bottom panel contrasts these measures on FOMC days with estimates from non-FOMC days (control groups), represented by black dotted lines.*
