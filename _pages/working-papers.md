@@ -18,6 +18,6 @@ published: true
     <img src="/assets/papers/liqFOMC.png" alt="Liquidity Dynamics Around FOMC Announcements" style="max-width: 100%; border: 1px solid #ccc;" />
   </div>
 
-  <div style="text-align: center; font-style: italic; margin-top: 10px;">
+  <div style="text-align: center; margin-top: 5px;">
     Figure: Liquidity Dynamics Around FOMC Announcements at 14:00. The top panel displays averaged log-estimates of proposed liquidity measures (${\mathcal{S}}(m)^n_t$ for $m=1,5$) alongside the log effective spread (ES), grouped by trading days prior to, during, and after FOMC announcements. The bottom panel contrasts these measures on FOMC days with estimates from non-FOMC days (control groups), represented by black dotted lines.
   </div>
