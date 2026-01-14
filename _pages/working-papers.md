@@ -21,3 +21,11 @@ published: true
   <div style="text-align: center; margin-top: 5px;">
     Figure: Liquidity Dynamics Around FOMC Announcements at 14:00. The top panel displays averaged log-estimates of proposed liquidity measures (${\mathcal{S}}(m)^n_t$ for $m=1,5$) alongside the log effective spread (ES), grouped by trading days prior to, during, and after FOMC announcements. The bottom panel contrasts these measures on FOMC days with estimates from non-FOMC days (control groups), represented by black dotted lines.
   </div>
+
+  <div style="text-align: center; margin-top: 20px;">
+    <img src="/assets/papers/oibFOMC.png" alt="Order Imbalance Measures Around FOMC Announcements" style="max-width: 100%; border: 1px solid #ccc;" />
+  </div>
+
+  <div style="text-align: center; margin-top: 5px;">
+    Figure: Order Imbalance Measures Around FOMC Announcements at 14:00. The top panel displays average standard order imbalance measures defined in \eqref{eq:OIB} prior to, during, and after FOMC announcements days. The bottom panel plots our proposed new order imbalance measures $\dior{m}{t}$ with $m =5, 10$.
+  </div>
