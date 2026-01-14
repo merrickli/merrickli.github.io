@@ -6,8 +6,9 @@ author_profile: true
 published: true
 ---
 
-- [Designing High-Frequency Market Liquidity Measures with Applications to Monetary Policy](https://doi.org/10.13140/RG.2.2.33271.28325) 
+- [Designing High-Frequency Market Liquidity Measures with Applications to Monetary Policy](https://doi.org/10.13140/RG.2.2.33271.28325),
 with Oliver Linton, Yunxiao Zhai, and Haotian Zhang.
+
    • [Supplement](/assets/papers/Supple_spotliq.pdf)  
 
 
