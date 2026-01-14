@@ -15,9 +15,7 @@ published: true
   **Empirical Highlights:**
 
   <div style="text-align: center;">
-    <a href="/assets/papers/liqFOMC.pdf" target="_blank">
-      <img src="/assets/papers/liqFOMC.pdf" alt="Liquidity Dynamics Around FOMC Announcements" style="max-width: 100%; border: 1px solid #ccc;" />
-    </a>
+    <img src="/assets/papers/liqFOMC.png" alt="Liquidity Dynamics Around FOMC Announcements" style="max-width: 100%; border: 1px solid #ccc;" />
   </div>
 
   <div style="text-align: center; font-style: italic; margin-top: 10px;">
