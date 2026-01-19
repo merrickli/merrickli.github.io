@@ -7,17 +7,21 @@ author_profile: true
 - [Multi-Horizon Test for Market Frictions](https://doi.org/10.13140/RG.2.2.25644.58246), with X. Yang (2026). **Journal of Econometrics**. [Code](https://github.com/merrickli/minimac) 
   
   <details markdown="1">
-  <summary><strong>Highlights</strong></summary>
+  <summary style="color: #1e6bb8;"><strong>Highlights</strong></summary>
 
-  **Abstract**: We test for the presence of market frictions that induce transitory deviations of observed asset prices from the underlying efficient prices. Our test is based on the joint inference of return covariances across multiple horizons. We demonstrate that a small set of horizons suffices to identify a broad spectrum of frictions, both theoretically and practically. Our method works for high- and low-frequency data under different asymptotic regimes. Extensive simulations show our method outperforms widely used state-of-the-art tests. Our empirical studies indicate that intraday transaction prices from recent years can be considered effectively friction-free at significantly higher frequencies.
+  <div style="color: #1e6bb8;">
 
-  **What the test can do:**
-  - Check whether intraday prices are relatively **free of microstructure noise**
-  - Diagnose whether the underlying return series is **uncorrelated** or exhibits serial dependence
-  - Detect persistent returns driven by large drifts or **drift bursts**
-  - Outperforms modern **variance ratio** and **portmanteau tests**
+  <p><strong>Abstract</strong>: We test for the presence of market frictions that induce transitory deviations of observed asset prices from the underlying efficient prices. Our test is based on the joint inference of return covariances across multiple horizons. We demonstrate that a small set of horizons suffices to identify a broad spectrum of frictions, both theoretically and practically. Our method works for high- and low-frequency data under different asymptotic regimes. Extensive simulations show our method outperforms widely used state-of-the-art tests. Our empirical studies indicate that intraday transaction prices from recent years can be considered effectively friction-free at significantly higher frequencies.</p>
 
-  **Empirical Results**: Annual rejection rates of $\mathbb{H}_0$ (semimartingale without microstructural errors) for SPY (2014-2021) at 1% significance level:
+  <p><strong>What the test can do:</strong></p>
+  <ul>
+  <li>Check whether intraday prices are relatively <strong>free of microstructure noise</strong></li>
+  <li>Diagnose whether the underlying return series is <strong>uncorrelated</strong> or exhibits serial dependence</li>
+  <li>Detect persistent returns driven by large drifts or <strong>drift bursts</strong></li>
+  <li>Outperforms modern <strong>variance ratio</strong> and <strong>portmanteau tests</strong></li>
+  </ul>
+
+  <p><strong>Empirical Results</strong>: Annual rejection rates of $\mathbb{H}_0$ (semimartingale without microstructural errors) for SPY (2014-2021) at 1% significance level:</p>
 
   <div style="display: flex; justify-content: space-between; font-size: 0.85em; margin: 20px 0;">
     <div style="width: 48%;">
@@ -121,7 +125,9 @@ author_profile: true
     </div>
   </div>
 
-  **Table shows rejection rates (%) of our single-horizon ($\bK_0$), two-horizon ($\bK_1$), and four-horizon ($\bK_2$) tests across different sampling frequencies. The results demonstrate that intraday prices become effectively friction-free at higher frequencies in recent years.**
+  <p><strong>Table shows rejection rates (%) of our single-horizon ($\bK_0$), two-horizon ($\bK_1$), and four-horizon ($\bK_2$) tests across different sampling frequencies. The results demonstrate that intraday prices become effectively friction-free at higher frequencies in recent years.</strong></p>
+
+  </div>
 
   </details>
 
