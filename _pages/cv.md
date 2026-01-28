@@ -36,7 +36,7 @@ redirect_from:
 
 ## Research Funds
 
-* RGC General Research Fund — 2024—2026
-* RGC Early Career Scheme — 2023—2025
-* Startup Grant, The Chinese University of Hong Kong — 2021
-* Keynes Fund Grant, Faculty of Economics, University of Cambridge — 2020
+* RGC General Research Fund, 2024—2026
+* RGC Early Career Scheme, 2023—2025
+* Startup Grant, The Chinese University of Hong Kong, 2021
+* Keynes Fund Grant, Faculty of Economics, University of Cambridge, 2020
