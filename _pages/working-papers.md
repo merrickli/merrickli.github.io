@@ -28,5 +28,5 @@ with Oliver Linton, Yunxiao Zhai, and Haotian Zhang.
   </div>
 
   <div style="text-align: center; margin-top: 5px;">
-    Figure: Order Imbalance Measures Around FOMC Announcements at 14:00. The top three rows report the conventional order-imbalance measures computed at different aggregation frequencies: 30-second intervals (top row), 1-minute intervals (second row), and 5-minute intervals (third row). The bottom panel plots our proposed new order imbalance measures DOFI(m) with $m=5, 10$.
+    Figure: Order-imbalance measures around FOMC announcements (14:00). The figure plots intraday averages of order-imbalance metrics for three event windows: the trading day before the FOMC meeting (left column), the announcement day (middle column), and the trading day after the meeting (right column). The dashed vertical line in the middle column marks the scheduled announcement time at 14:00. The top three rows report the conventional order-imbalance measures computed at different aggregation frequencies: 30-second intervals (top row), 1-minute intervals (second row), and 5-minute intervals (third row). The bottom panel plots our proposed new order imbalance measures DOFI(m) with $m=5, 10$.
   </div>
