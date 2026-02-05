@@ -137,4 +137,4 @@ author_profile: true
 
 - [Dependent microstructure noise and integrated volatility estimation from high-frequency data](https://doi.org/10.1016/j.jeconom.2019.10.004), with R. J. A. Laeven, M. H. Vellekoop (2020). **Journal of Econometrics**, 215(2), 536–558.
 
-- [A barrier-based smoothing proximal point algorithm for NCPs over closed convex cones](https://epubs.siam.org/doi/10.1137/12087565X0), with C. B. Chua (2013). **SIAM Journal on Optimization**, 23(2), 745-769.
+- [A barrier-based smoothing proximal point algorithm for NCPs over closed convex cones]([https://epubs.siam.org/doi/10.1137/12087565X](https://epubs.siam.org/doi/abs/10.1137/12087565X)), with C. B. Chua (2013). **SIAM Journal on Optimization**, 23(2), 745-769.
