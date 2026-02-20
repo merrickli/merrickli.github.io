@@ -131,7 +131,7 @@ author_profile: true
 
   </details>
 
-- [Robust estimation of integrated and spot volatility](https://doi.org/10.1016/j.jeconom.2023.105614), with O. Linton (2023). **Journal of Econometrics**, 105614.
+- [Robust estimation of integrated and spot volatility](https://doi.org/10.1016/j.jeconom.2023.105614), with O. Linton (2026). **Journal of Econometrics**, 105614.
 
 - [A ReMeDI for Microstructure Noise](https://doi.org/10.3982/ECTA17505), with O. Linton (2022). **Econometrica**, 90(1), 367–389.
 
