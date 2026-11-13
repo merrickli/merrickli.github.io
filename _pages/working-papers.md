@@ -6,7 +6,7 @@ author_profile: true
 published: true
 ---
 
-- [Estimation and Inference for Spot Variance of Microstructure Noise](https://www.researchgate.net/publication/417864546_Estimation_and_Inference_for_Spot_Variance_of_Microstructure_Noise),
+- [Estimation and Inference for Spot Variance of Microstructure Noise](https://doi.org/10.13140/RG.2.2.18903.02724),
 with Haotian Zhang.
    • [Supplement](/assets/papers/Supple_spotnoise.pdf)  
 
