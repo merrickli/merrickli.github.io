@@ -32,10 +32,11 @@ redirect_from:
 
 * **Associate Editor**: [Journal of Financial Econometrics](https://academic.oup.com/jfec), 2025-present
 
-* **Referee for**: _Econometrica, Econometric Theory, Journal of the American Statistical Association, Journal of Business & Economic Statistics, Journal of Econometrics, Journal of Financial Econometrics, Journal of Time Series Analysis, Management Science, Quantitative Economics, Statistica Sinica_
+* **Referee for**: _Econometric Reviews, Econometric Theory, Econometrica, Journal of the American Statistical Association, Journal of Business & Economic Statistics, Journal of Econometrics, Journal of Financial Econometrics, Journal of Time Series Analysis, Management Science, Quantitative Economics, Statistica Sinica_
 
 ## Research Funds
 
+* RGC General Research Fund, 2027—2029
 * RGC General Research Fund, 2024—2026
 * RGC Early Career Scheme, 2023—2025
 * Startup Grant, The Chinese University of Hong Kong, 2021
