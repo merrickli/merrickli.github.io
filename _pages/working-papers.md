@@ -6,27 +6,28 @@ author_profile: true
 published: true
 ---
 
-- [Designing High-Frequency Market Liquidity Measures with Applications to Monetary Policy](https://www.researchgate.net/publication/399734918_Designing_High-Frequency_Market_Liquidity_Measures_with_Applications_to_Monetary_Policy),
-with Oliver Linton, Yunxiao Zhai, and Haotian Zhang.
-   • [Supplement](/assets/papers/Supple_spotliq.pdf)  
+- [Estimation and Inference for Spot Variance of Microstructure Noise](https://www.researchgate.net/publication/417864546_Estimation_and_Inference_for_Spot_Variance_of_Microstructure_Noise),
+with Haotian Zhang.
+   • [Supplement](/assets/papers/Supple_spotnoise.pdf)  
 
 
-  **Abstract**: 	We propose a new family of liquidity measures---including order imbalance metrics---based on the dispersion and persistence of transitory gaps between transaction prices and the underlying efficient price. We devise an estimation method that renders these latent gaps observable, allowing plug-in estimates of the new measures from intraday trades alone, along with an inference method that allows us to quantify the sampling uncertainty in our estimates. We apply the approach to the S&P 500 equity portfolio, as well as to individual stocks. We use event study methodology to capture heterogeneous liquidity responses to FOMC announcements, which reveals distinct order-persistence patterns on surprise versus non-surprise days, highlighting how markets anticipate and react to monetary policy via the liquidity channel.
+  **Abstract**: We develop estimation and inference for the spot variance of market microstructure noise, the discrepancy between observed transaction prices and underlying efficient prices arising from trading frictions. The noise is a stationary, serially dependent sequence scaled by the square root of a positive semimartingale that may jump at prescheduled times. Using transaction prices alone, we construct one-sided estimators of the left and right limits of the noise variance from a multi-horizon differencing scheme; averaging over a growing set of horizons renders them asymptotically equivalent to the oracle that observes the noise. We establish a joint stable central limit theorem and provide consistent asymptotic-variance estimators and a test for scheduled jumps. In SPY transactions over 2016--2025, the noise variance jumps at macroeconomic releases and closing-auction deadlines with event-specific recovery dynamics.
 
   **Empirical Highlights:**
 
   <div style="text-align: center;">
-    <img src="/assets/papers/liqFOMC.png" alt="Liquidity Dynamics Around FOMC Announcements" style="max-width: 100%; border: 1px solid #ccc;" />
+    <img src="/assets/papers/spotnoise_5min.png" alt="Intraday Spot Noise Variance and Scheduled Jump Rejections" style="max-width: 100%; border: 1px solid #ccc;" />
   </div>
 
   <div style="text-align: center; margin-top: 5px;">
-    Figure: Liquidity Dynamics Around FOMC Announcements at 14:00. The top panel displays averaged log-estimates of proposed liquidity measures (${\mathcal{S}}(m)^n_t$ for $m=1,5$) alongside the log effective spread (ES), grouped by trading days prior to, during, and after FOMC announcements. The bottom panel contrasts these measures on FOMC days with estimates from non-FOMC days (control groups), represented by black dotted lines.
+    Figure: Intraday spot noise variance (top) and two-sided 5% rejection frequencies (bottom) on a five-minute grid across four announcement day groups (Core News at 10:00, FOMC at 14:00, Michigan Sentiment at 10:00, and Comparison days), SPY 2016–2025. The top row shows cross-day means of $\widehat{\Gamma}_{t-}^n$ and $\widehat{\Gamma}_{t+}^n$ on a logarithmic scale and the group-average full-session single-horizon benchmark. Dotted lines mark the release time, 15:50, and the 5% level.
   </div>
 
   <div style="text-align: center; margin-top: 20px;">
-    <img src="/assets/papers/oibFOMC.png" alt="Order Imbalance Measures Around FOMC Announcements" style="max-width: 100%; border: 1px solid #ccc;" />
+    <img src="/assets/papers/spotnoise_1min.png" alt="One-Minute Event-Time Profiles of Spot Noise Variance" style="max-width: 100%; border: 1px solid #ccc;" />
   </div>
 
   <div style="text-align: center; margin-top: 5px;">
-    Figure: Order-imbalance measures around FOMC announcements (14:00). The figure plots intraday averages of order-imbalance metrics for three event windows: the trading day before the FOMC meeting (left column), the announcement day (middle column), and the trading day after the meeting (right column). The dashed vertical line in the middle column marks the scheduled announcement time at 14:00. The top three rows report the conventional order-imbalance measures computed at different aggregation frequencies: 30-second intervals (top row), 1-minute intervals (second row), and 5-minute intervals (third row). The bottom panel plots our proposed new order imbalance measures DOFI(m) with $m=5, 10$.
+    Figure: One-minute event-time profiles of spot noise variance, SPY 2016–2025. The rows show means of paired spot estimates on a logarithmic scale, the mean right-minus-left difference in units of $10^{-10}$, and two-sided 5% rejection frequencies. The first three columns correspond to the announcement groups (Core News, FOMC, and Michigan Sentiment); the last column covers the closing auction from November 4, 2019 onwards. Dotted lines mark the event time, 15:55, and the 5% level.
   </div>
+
