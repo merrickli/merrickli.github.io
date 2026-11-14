@@ -6,9 +6,9 @@ author_profile: true
 published: true
 ---
 
-- [Estimation and Inference for Spot Variance of Microstructure Noise](/assets/papers/spotnoise.pdf),
+- [Estimation and Inference for Spot Variance of Microstructure Noise](https://doi.org/10.13140/RG.2.2.18903.02724),
 with Haotian Zhang.
-   • [DOI](https://doi.org/10.13140/RG.2.2.18903.02724) • [Supplement](/assets/papers/Supple_spotnoise.pdf)  
+   • [Supplement](/assets/papers/Supple_spotnoise.pdf)  
 
 
   **Abstract**: We develop estimation and inference for the spot variance of market microstructure noise, the discrepancy between observed transaction prices and underlying efficient prices arising from trading frictions. The noise is a stationary, serially dependent sequence scaled by the square root of a positive semimartingale that may jump at prescheduled times. Using transaction prices alone, we construct one-sided estimators of the left and right limits of the noise variance from a multi-horizon differencing scheme; averaging over a growing set of horizons renders them asymptotically equivalent to the oracle that observes the noise. We establish a joint stable central limit theorem and provide consistent asymptotic-variance estimators and a test for scheduled jumps. In SPY transactions over 2016--2025, the noise variance jumps at macroeconomic releases and closing-auction deadlines with event-specific recovery dynamics.
